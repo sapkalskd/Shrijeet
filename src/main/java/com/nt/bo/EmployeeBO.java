@@ -6,6 +6,7 @@ public class EmployeeBO {
 	private String desg;
 	private double salary;
 	
+	//Constructor
 	public EmployeeBO() {
 
 		System.out.println("EmployeeBO.EmployeeBO()-0-param constructor");

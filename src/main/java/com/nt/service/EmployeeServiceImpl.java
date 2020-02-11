@@ -25,7 +25,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 		empBo.setSalary(Double.parseDouble(vo.getSalary()));
 		empBo.setDesg(vo.getDesg());
 		
-		//use dao
+		//use dao and invoke the method
 		result = dao.insertEmpData(empBo);
 		if(result!=0)
 			return "Employee Record Inserted successfully......";
